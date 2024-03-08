@@ -1,16 +1,16 @@
 import "../layout/cssCompStyles.css"
-import Foto from "../assets/pictures/Eze.png"
-import pdf from "../assets/CV/CV Ezequiel Barrena 2022.pdf"
+import Foto from "../assets/pictures/Ampi.png"
+//import pdf from "../assets/CV/CV Ezequiel Barrena 2022.pdf"
 
 
 function intro() {
     return(
         <div className="bg3" id="intro">
         
-            <div className="row">
+            <div className="row no-gutters" id="filarecortada" style={{ padding: 0,  margin: 0 }}>
 
-                <div className="col-md-6 col-12">
-                    <div className="row"> 
+                <div className="col-md-6 col-sm-12 col-6" >
+                    
                         <div className="col-md-2"></div>
                         <div className="col-md-9">
                             <div className="boxIntro">
@@ -31,7 +31,7 @@ function intro() {
                                             </svg>
                                             LinkedIn
                                         </a>
-                                        <a class="btn btn-light" download="CV Ezequiel Barrena" href={pdf} role="button" target="_blank">
+                                        <a class="btn btn-light" download="CV Ezequiel Barrena"  role="button" target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
                                                 <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z"/>
                                             </svg>
@@ -44,14 +44,12 @@ function intro() {
                                            
                         </div>
                         <div className="col-md-1"></div>
-                    </div> 
+                    
                 </div>
-
-                <div className="col-md-6 col-sm-12 col-12">
-                    <div className="row">
-                        <div className="divImagenIntro">
-                            <img src={Foto} alt="Foto" className="Foto"></img>
-                        </div>
+                
+                <div className="col-md-6 col-sm-12 col-6">
+                    <div className="divImagenIntro">
+                        <img src={Foto} alt="Foto" className="Foto img-fluid"></img>
                     </div>
                 </div>
 
