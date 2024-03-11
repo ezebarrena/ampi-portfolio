@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ampi-portfolio/static/css/main.ab40beeb.css",
-    "main.js": "/ampi-portfolio/static/js/main.f8b76f0c.js",
+    "main.js": "/ampi-portfolio/static/js/main.f3264906.js",
     "static/js/453.ea5f83cb.chunk.js": "/ampi-portfolio/static/js/453.ea5f83cb.chunk.js",
     "static/media/Museo.png": "/ampi-portfolio/static/media/Museo.c37e282e88fb6cdb7401.png",
     "static/media/ViviUniFam.png": "/ampi-portfolio/static/media/ViviUniFam.26ce7ac2150cc3359c8d.png",
@@ -9,11 +9,11 @@
     "static/media/Ampi.png": "/ampi-portfolio/static/media/Ampi.e338e4f3d0b1b74627fb.png",
     "index.html": "/ampi-portfolio/index.html",
     "main.ab40beeb.css.map": "/ampi-portfolio/static/css/main.ab40beeb.css.map",
-    "main.f8b76f0c.js.map": "/ampi-portfolio/static/js/main.f8b76f0c.js.map",
+    "main.f3264906.js.map": "/ampi-portfolio/static/js/main.f3264906.js.map",
     "453.ea5f83cb.chunk.js.map": "/ampi-portfolio/static/js/453.ea5f83cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab40beeb.css",
-    "static/js/main.f8b76f0c.js"
+    "static/js/main.f3264906.js"
   ]
 }
